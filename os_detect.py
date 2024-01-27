@@ -50,10 +50,9 @@ if __name__ == "__main__":
     os = get_os()
     if args.show: 
         dir_path = 'C:\\Users\\Anthony\\Desktop\\Esgi\\Cours\\3emeAnnee\\s1\\python\\TP'
-        if os == "Linux" : result = subprocess.check_output(f"dir /B {dir_path}", shell=True, text=True)
-        if os == "Windows" : result = subprocess.check_output("ls", shell=True, text=True)
+        if os == "Windows" : result = subprocess.check_output(f"dir /B {dir_path}", shell=True, text=True)
+        if os == "Linux" : result = subprocess.check_output("ls", shell=True, text=True)
         print(f"Les fichiers presents sont : {result}")
-    print(f"Nous sommes sur un systeme : {os}")
     ip_config = get_ip_configuration(os)
     print(ip_config)
 
