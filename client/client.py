@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Réalisé par Marc WILMOT et Anthony BAYRAKTAR
+# Réalisé par ***
 # Projet : Spyware
 # Description du projet : Réalisation d'un spyware en Python avec une partie serveur et une partie client
 # Date de rendu : 31/01/2024
