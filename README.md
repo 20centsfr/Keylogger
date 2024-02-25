@@ -3,15 +3,15 @@
 ## Disclaimer
 This project is intended for educational and research purposes only. The use of this software for monitoring or accessing unauthorized data without proper consent may violate local, state, or federal law. The authors of this software are not responsible for any misuse or damage caused by the usage of this software.
 
-### Overview
+## Overview
 This project is a keylogger designed to capture all keystrokes made by the user and send them to a server every 10 seconds. The server-side component of the project provides a set of commands to manage and interact with the keylogger.
 
-### Usage
+## Usage
 
-## Client (Keylogger)
+### Client (Keylogger)
 The keylogger should be executed on the target system to capture keystrokes. It operates silently in the background.
 
-## Server
+### Server
 The server component provides a set of commands to interact with the keylogger:
 
 help: Displays a list of available commands.
